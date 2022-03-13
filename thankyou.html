@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="cart.css">
+    <title>Orderconfirm</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27762d1460.js" crossorigin="anonymous"></script>
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!--navigation -------------------------->
+    <nav>
+        <!--social links & phone number -------------------------->
+        <div class="social-call">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+            </div>
+            <div class="phone">
+                <span> Call +91-9690604811</span>
+            </div>
+        </div>
+        <!--menu-bar -------------------------->
+        <div class="navigation">
+            <a href="index.html" class="logo">
+                <h1><span class="logo-first">SHOP</span>LANE</h1>
+            </a>
+            <ul class="menu">
+                <li><a href="index.html">home</a></li>
+                <li><a href="index.html#clothing-section">clothing</a></li>
+                <li><a href="index.html#accessory-section">acessories</a></li>
+            </ul>
+            <div class="right-menu">
+                <a href="javascript:void(0);" class="search"><i class="fas fa-search"></i></a>
+                <a href="javascript:void(0);" class="user"><i class="far fa-user"></i></a>
+                <div id="rightcart-menu">
+                    <div id="cart-wrapper">
+                        <p id="cart-count">0</p>
+                        <a href="http://127.0.0.1:5500/cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="toggle">
+
+        </div>
+    </nav>
+    <!--------------search-bar ------------------------------>
+    <div class="search-bar">
+        <div class="search-input">
+            <input class="input" type="text" placeholder="Search for Product" />
+            <a href="javascript:void(0);" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+
+        </div>
+
+    </div>
+    <!------------log-in & signup form -------------------------->
+    <div class="form">
+        <!------------log-in form -------------------------->
+        <div class="login-form">
+            <!------------cancel-btn -------------------------->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!------------heading -------------------------->
+            <strong>Log In</strong>
+            <!------------form-inputs -------------------------->
+            <form>
+                <input type="text" name="email" placeholder="Example@gmail.com" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <!------------submit-btn -------------------------->
+                <input type="submit" value="Log In">
+            </form>
+            <!------------forget password & signup btn -------------------------->
+            <div class="form-btns">
+                <a href="#" class="forget">Forget your password?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+            </div>
+
+        </div>
+        <!------------sign-up form -------------------------->
+        <div class="signup-form">
+            <!------------cancel-btn -------------------------->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!------------heading -------------------------->
+            <strong>Sign Up</strong>
+            <!------------form-inputs -------------------------->
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Example@gmail.com" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <!------------submit-btn -------------------------->
+                <input type="submit" value="Log In">
+            </form>
+            <!------------forget password & signup btn -------------------------->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="forget">Already Have Account ?</a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <main>
+        <div class="order-confirm">
+            <img class="tick" src="./images/tick.png" alt="tick">
+            <h1>Order Placed Successfully!!</h1>
+            <h5>We Have Sent You An Email With The Order Details</h5>
+        </div>
+
+    </main>
+
+
+    <script src="details.js"></script>
+    <script src="base.js"></script>
+    <script src="cart.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
